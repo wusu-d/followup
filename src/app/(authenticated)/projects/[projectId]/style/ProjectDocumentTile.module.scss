@@ -1,0 +1,7 @@
+.iframe {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.iframe::-webkit-scrollbar {
+  display: none;
+}

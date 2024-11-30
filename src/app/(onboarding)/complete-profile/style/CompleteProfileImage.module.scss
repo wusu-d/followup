@@ -1,0 +1,19 @@
+.edit_profile_image_container {
+  --_width: 10rem;
+  @apply relative;
+
+  width: var(--_width);
+}
+
+.edit_profile_image_button {
+  @apply absolute grid aspect-square place-items-center rounded-full;
+
+  --_size: 30%;
+
+  width: var(--_size);
+  height: var(--_size);
+
+  /* Position the button in the bottom-right corner */
+  right: 0;
+  bottom: 0;
+}
